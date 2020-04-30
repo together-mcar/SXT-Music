@@ -1,0 +1,31 @@
+// 多行字体显示时，多余的字变成省略号
+@mixin ellipsisMoreText () {
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+// 单行字体显示时， 多余的字体变成省略号
+@mixin ellipsisSingleText ($width) {
+  display: inline-block;
+  max-width: $width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin ellipsisMoreTextNum ($Num) {
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $Num;
+  overflow: hidden;
+}
+// 文字链接
+.text-link {
+  cursor: pointer;
+}
