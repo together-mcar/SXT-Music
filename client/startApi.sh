@@ -1,6 +1,12 @@
 function start () {
+  echo "run NeteaseCloudMusicApi"
+
   cd ../NeteaseCloudMusicApi
-  npm install
   npm run start
-  echo "run api"
+
+  cd ../server
+  python3 manage.py runserver
+
+  echo "run DjangoApi"
 }
+start
