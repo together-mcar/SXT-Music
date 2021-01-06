@@ -18,7 +18,7 @@
     "@nuxtjs/axios": "^5.9.5",
     "@nuxtjs/dotenv": "^1.4.1",
     "@videojs/themes": "^1.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
