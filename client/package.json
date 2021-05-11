@@ -27,7 +27,7 @@
     "jquery": "^3.4.1",
     "jump.js": "^1.0.2",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "long": "^4.0.0",
     "node-sass": "^4.13.1",
     "nodemon": "^2.0.2",
